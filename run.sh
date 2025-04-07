@@ -1,4 +1,6 @@
 #!/bin/bash
 export MINIO_ROOT_USER=admin
-export MINIO_ROOT_PASSWORD=password123
-minio server /Users/jorgemacias/jorge/BrainRotter/minio/data
+export MINIO_ROOT_PASSWORD=Trinity122103
+export MINIO_ADDRESS=0.0.0.0:9000
+export MINIO_CONSOLE_ADDRESS=0.0.0.0:9001
+minio server ./data
